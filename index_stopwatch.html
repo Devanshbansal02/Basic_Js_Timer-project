@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styler.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <h1 class="time">00:00:00</h1>
+        <div class="buttons">
+            <img src="stop.svg" alt="" class="stop" onclick="stoptimer()">
+            <img src="play.svg" class="play" alt="" style="width: 80px;" onclick="start()">
+            <img src="reset.svg" alt="" class="reset" onclick="reset()">
+        </div>
+    </div>
+
+    <script src="stopwatch.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kablammo', cursive;
+}
+
+body{
+    align-items: center;
+    background-color: rgb(255, 215, 162);
+}
+
+.stopwatch{
+    width: 90%;
+    color: aliceblue;
+    background-color: rgb(255, 213, 107);
+    background-image: url(th.svg);
+    max-width: 600px;
+    text-align: center;
+    background-position: center;
+    background-size: fit;
+    padding: 40px;
+    margin: 30vh auto 0;
+}
+
+img{
+    width: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.stopwatch .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.play.is-active{
+    display: none;
+}
