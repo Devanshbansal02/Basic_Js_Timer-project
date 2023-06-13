@@ -202,7 +202,7 @@ header{
 }
 #grid-o{
     position: fixed;
-    bottom: 10vh;
+    bottom: 7vh;
     -webkit-transform: rotate(-25deg);
     -moz-transform: rotate(-25deg);
     -ms-transform: rotate(-25deg);
