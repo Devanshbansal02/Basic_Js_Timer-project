@@ -211,7 +211,7 @@ header{
 }
 #grid-th{
     position: fixed;
-    bottom: 56vh;
+    bottom: 49vh;
     left: 35vh;
     transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
@@ -222,7 +222,7 @@ header{
 #grid-t{
     position: fixed;
     bottom: 49vh;
-    right: 34vh;
+    right: 28vh;
     transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
     -moz-transform: rotate(-10deg);
