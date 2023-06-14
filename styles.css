@@ -202,7 +202,7 @@ header{
 }
 #grid-o{
     position: fixed;
-    top: 6vh;
+    bottom: 10vh;
     -webkit-transform: rotate(-25deg);
     -moz-transform: rotate(-25deg);
     -ms-transform: rotate(-25deg);
@@ -211,7 +211,7 @@ header{
 }
 #grid-th{
     position: fixed;
-    bottom: 49vh;
+    bottom: 56vh;
     left: 35vh;
     transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
@@ -222,10 +222,17 @@ header{
 #grid-t{
     position: fixed;
     bottom: 49vh;
-    right: 28vh;
+    right: 34vh;
     transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
     -moz-transform: rotate(-10deg);
     -ms-transform: rotate(-10deg);
     -o-transform: rotate(-10deg);
+}
+
+@media screen and (max-width: 600px){
+    .grid{
+        position: absolute;
+        z-index: 0;
+    }
 }
